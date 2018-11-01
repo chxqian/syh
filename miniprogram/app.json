@@ -1,0 +1,30 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/list/list",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/logs/logs",    
+    "pages/infos/infos",
+    "pages/info/info",
+    "pages/edit/edit",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#052d46",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#052d46",
+    "navigationBarTitleText": "Marry U",
+    "navigationBarTextStyle": "#FFFFFF"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

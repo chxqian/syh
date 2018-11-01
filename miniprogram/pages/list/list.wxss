@@ -1,0 +1,99 @@
+/* pages/list/list.wxss */
+@import "../../style/common.wxss";
+.top-bar {
+  display: flex;
+}
+.top-nav {
+border:2px solid rgba(0, 0, 0, 0.1);
+padding:10px;
+width:100%;
+text-align:center;
+background-color: #052d46
+}
+.top-nav>.tab {
+width: 33%;
+float: left;
+font-size: 16px;
+color: #808080;
+}
+.all, .men {
+  border-right: 1px solid #808080;
+}
+.top-nav> .active {
+  color: #fff;
+  font-weight: bold
+}
+.picker {
+  color: #052d46;
+  margin-left: 22px;
+}
+.top {
+  width: 100%;
+  font-size: 16px;
+  line-height:30px;
+  padding:5px;
+  padding-left: 25px;
+  color: #052d46;
+}
+.top>.search,.icon-map,.pic{
+  float: left;
+}
+.search {
+  width:50%;
+  border:1px solid #ddd;
+  border-radius:15px;
+  font-size:14px;
+  padding-left:15px;
+  position: absolute;
+  right: 45px
+}
+.icon-clear {
+  position:absolute;
+  right:50px;
+  font-size:4px;
+  top:10px;
+}
+.icon-search {
+  position:absolute;
+  right:15px;
+  font-size:4px;
+  top:10px;
+}
+.section {
+  width: 44%;
+  height: 110px;
+  border: 1px solid #052d46;
+  border-radius:5px;
+  float: left;
+  margin: 10px 5px 0px 7px;
+  padding: 5px;
+  box-shadow: 5px #808080;
+  font-size: 12px;
+}
+.section>.photo,.info {
+  float: left;
+  height:80px;
+  width:80px;
+}
+.info {
+  padding-left: 5px
+}
+.pro{
+  clear: both;
+  padding-top: 5px;
+  font-size: 10px
+}
+.pro>label,.info label {
+  font-weight: bold;
+  color:  #052d46
+}
+.icon-dibiao {
+  position: absolute;
+  font-size: 35rpx;
+}
+.icon-shouye {
+  font-size: 35rpx;
+}
+.icon-shezhi {
+  font-size: 35rpx;
+}

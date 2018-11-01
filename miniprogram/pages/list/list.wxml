@@ -1,0 +1,187 @@
+<view class="container">
+<view class='top'>  
+  <icon class='iconfont icon-dibiao'></icon>
+  <picker class='pic' bindchange="bindPickerChange" value="{{index}}" range="[重庆，上海，北京，广州]">    
+    <view class="picker">
+      重庆
+    </view>
+  </picker>
+  <input class='search' placeholder='搜索' type='text'></input>
+  <icon class='icon-clear' type='clear'></icon>
+  <icon class='icon-search' type='search'></icon> 
+</view>
+<view class='top-nav'>
+<view class='tab all active'>
+<image class='icon-img' src='../../images/user-unlogin.png'></image>
+<text>全部</text>
+</view>
+<view class='tab men'>
+<image class='icon-img' src='../../images/user-unlogin.png'></image>
+<text>帅锅</text></view>
+<view class='tab women'>
+<image class='icon-img'  src='../../images/user-unlogin.png'></image>
+<text>美女</text></view>
+</view>
+<scroll-view scroll-y style='height:542px'>
+<navigator url="../detail/detail" open-type="navigate" class="uploader-text">
+  <view class='section'>
+  <image class='photo' src='../../images/qdd.jpg'></image>
+  <view class='info'>
+  <view><label>姓名：</label><text>钱多多</text></view>
+  <view><label>年龄：</label><text>28</text></view>
+  <view><label>星座：</label><text>天蝎座</text></view>
+  <view><label>职业：</label><text>IT</text></view>
+  <view><label>爱好：</label><text>耍耍耍</text></view>
+  </view>
+  <view class='pro'>
+  <label>白马描述：</label>
+  <text>弱水三千，只取一瓢......</text>
+  </view>
+  </view>
+</navigator>
+<view class='section'>
+<image class='photo' src='../../images/qdd3.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/dx.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>易大仙</text></view>
+<view><label>年龄：</label><text>38</text></view>
+<view><label>星座：</label><text>水瓶座</text></view>
+<view><label>职业：</label><text>把脉</text></view>
+<view><label>爱好：</label><text>美女</text></view>
+</view>
+<view class='pro'>
+<label>女神描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/dx1.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>易XX</text></view>
+<view><label>年龄：</label><text>38</text></view>
+<view><label>星座：</label><text>水瓶座</text></view>
+<view><label>职业：</label><text>把脉</text></view>
+<view><label>爱好：</label><text>归隐</text></view>
+</view>
+<view class='pro'>
+<label>女神描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/qdd6.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/qdd7.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/qdd9.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/qdd3.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/qdd3.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+<view class='section'>
+<image class='photo' src='../../images/qdd3.jpg'></image>
+<view class='info'>
+<view><label>姓名：</label><text>钱多多</text></view>
+<view><label>年龄：</label><text>28</text></view>
+<view><label>星座：</label><text>天蝎座</text></view>
+<view><label>职业：</label><text>IT</text></view>
+<view><label>爱好：</label><text>耍耍耍</text></view>
+</view>
+<view class='pro'>
+<label>白马描述：</label>
+<text>弱水三千，只取一瓢......</text>
+</view>
+</view>
+</scroll-view>
+  <view class='bottom'>
+    <view class='tab active'>
+    <icon class='iconfont icon-shouye'></icon>
+    首页
+    </view>
+    <view class='tab'>
+      <navigator url="../infos/infos" open-type="navigate" class="uploader-text">
+      <icon class='iconfont icon-duihuaxinxi'></icon>
+      消息
+    </navigator>
+    </view>
+    <view class='tab'>
+      <navigator url="../edit/edit" open-type="navigate" class="uploader-text">
+        <icon class='iconfont icon-shezhi'></icon>
+        资料
+      </navigator>
+    </view>
+  </view>
+</view>

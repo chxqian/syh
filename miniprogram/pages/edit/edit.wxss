@@ -1,0 +1,41 @@
+/* pages/add/add.wxss */
+@import "../../style/common.wxss";
+.section {
+  margin-top: 10px;
+}
+.section>label {
+float: left;
+margin-left: 50px;
+}
+.pro-img {
+  margin:10px auto;
+  display:block;
+  height:100px;
+  width:100px;
+  border-radius:50px;
+}
+textarea {
+  padding: 5px;
+  border:1px solid #eee;
+  margin-left:130px;
+  border-radius:8px; 
+  min-height:80px;
+}
+.uploader {
+  float:left;
+  height:120px;
+  width:118px;
+  font-size:14px;
+  color:#052d46;
+  margin:0px 5px;
+  text-align:center;
+}
+.uploader-image {
+  height:115px;
+  width:145px;
+}
+.line {
+  width:93%;
+  border-top:1px solid #052d46;
+  margin:10px auto;
+}

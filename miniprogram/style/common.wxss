@@ -1,0 +1,42 @@
+.bottom{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #eee;
+}
+.bottom>.tab {
+  padding: 3px;
+  width: 31.886%;
+  float: left;
+  text-align: center;
+  font-size:14px;
+  color: #052d46;
+}
+.bottom>.active {
+  border: 0px;
+  box-shadow: #ccc 0px 0px 10px 5px;
+  color:#ffff;
+  background-color:#052d46;
+}
+.icon-img {
+width:30px;
+height:30px;
+vertical-align:middle;
+margin-right: 5px;
+}
+input {
+  padding-left: 10px;
+  border:1px solid #eee;
+  border-radius:8px;
+}
+.input210 {
+  width:210px;
+  border-color:#052d46;
+}
+.section>label {
+  font-size: 14px;
+  width: 80px;
+  padding-top: 5px;
+  color:#052d46;
+  font-weight:bold;
+}

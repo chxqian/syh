@@ -1,0 +1,42 @@
+<!--pages/add/add.wxml-->
+<view>    
+    <view class='section'>
+      <view class='opt'>
+        <icon class='iconfont icon-zan'></icon>赞
+        <icon class='iconfont icon-guanzhu'></icon>关注
+        <icon class='iconfont icon-sixin'></icon>私信
+      </view>
+      <image class='pro-img' src='../../images/qdd.jpg'></image>
+    </view>
+    <view class='line'></view>
+    <view class='section'><text>昵称：</text>钱多多</view>
+    <view class='section'><text>姓名：</text>钱多多</view>
+    <view class='section'><text>电话：</text>18623445987</view>
+    <view class='section'><text>身份证号：</text>620121198910136943</view>
+    <view class='section'><text>个人简介：</text>我是一颗小小的石头，深深地埋在泥土之中，千年以后，繁华落幕，我还在这里默默守候......</view>
+    <view class='section'><text>择偶标准：</text>高高的，白白的，胖胖的，帅帅的，香香的，哈哈哈</view>    
+    <view class='section'>
+      <image class="uploader-image" src="{{imgUrl}}" bindtap="previewImg"></image>
+      <image class="uploader-image" src="{{imgUrl}}" bindtap="previewImg"></image>
+      <image class="uploader-image" src="{{imgUrl}}" bindtap="previewImg"></image>
+    </view>
+    <view class='line'></view>
+    <view class='liuyan'>
+        <text class='name'>易XX：</text>嗨，你好，很高兴认识你！        
+        <label class='opt huifu'>| 回复</label>
+    </view>
+    <view class='liuyan'>
+      <text class='name'>李XX：</text>嗨，钱多多，你好，很高兴认识你！
+      <label class='opt huifu'>| 回复</label>
+    </view>
+    <view class='liuyan'>
+      <text class='name'>张XX：</text>嗨，钱多多，你好，很高兴认识你！
+      <label class='opt huifu'>| 回复</label>
+    </view>
+    <view class='liuyan'>
+      <text class='name'>王XX：</text>嗨，钱多多，你好，很高兴认识你！
+      <label class='opt huifu'>| 回复</label>
+    </view>
+
+
+</view>

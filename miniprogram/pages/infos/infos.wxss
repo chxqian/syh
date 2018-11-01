@@ -1,0 +1,41 @@
+/* pages/infos/infos.wxss */
+@import "../../style/common.wxss";
+.container navigator {
+  height:100rpx;
+  background:#fff;
+  border-bottom:1px dotted #052d46;
+  border-left:none;
+  border-right:none;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  transition:all 300ms ease;
+  position:relative;
+  margin:0 15px;
+  padding:0 10px;
+}
+.photo {
+  position: absolute;
+  top: 15rpx;
+  width:70rpx;
+  height:70rpx;
+  border-radius:5rpx;
+}
+.name {
+  margin-left: 90rpx;
+  font-size:18px;
+  font-weight:bold;
+  color: #052d46;
+}
+.news {
+  position:absolute;
+right:0rpx;
+height:34rpx;
+width:38rpx;
+border-radius:40rpx;
+background-color:#ff0000;
+color:#ffffff;
+font-size:12px;
+text-align:center;
+padding-top:5rpx;
+}

@@ -1,0 +1,40 @@
+/* pages/detail/detail.wxss */
+@import "../../style/common.wxss";
+@import "../edit/edit.wxss";
+.input210 {
+  border: 0px;
+}
+.section {
+  clear:both;
+  margin-top:5px;
+  padding:3px 25px;
+  font-size: 14px;
+}
+.section>text {
+  font-size: 14px;
+  font-weight: bold;
+}
+.opt {
+  position:absolute;
+  right:25px;
+  color:#052d46;
+  font-size:12px;
+}
+.opt>.iconfont {
+  margin-left: 20rpx;
+}
+.uploader-image {
+  height:117px;
+  width:117px;
+  margin:5px 2px;
+}
+.liuyan {
+  border-bottom:1rpx dotted;
+  font-size:12px;
+  padding:5px 10px;
+  margin:0px 15px;
+}
+.name {
+  color:#052d46;
+  font-weight:bold; 
+}

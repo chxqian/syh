@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<scroll-view class="container">
+    <!-- list -->
+    <navigator url="../info/info" open-type="navigate" class="uploader-text">
+        <image class='photo' src='../../images/dx1.jpg'></image>
+        <text class='name'>易XX</text>
+        <text class='news'>20</text>
+    </navigator>
+    <navigator url="../info/info" open-type="navigate" class="uploader-text">
+      <image class='photo' src='../../images/qdd3.jpg'></image>
+      <text class='name'>钱XX</text>
+      <text class='news'>5</text>
+    </navigator>
+    <navigator url="../info/info" open-type="navigate" class="uploader-text">
+      <image class='photo' src='../../images/qdd3.jpg'></image>
+      <text class='name'>钱多多</text>
+      <text class='news'>...</text>
+    </navigator>
+  </scroll-view>
+  <view class='bottom'>
+      <view class='tab'>
+        <navigator url="../list/list" open-type="navigate" class="uploader-text">
+          <icon class='iconfont icon-shouye'></icon>
+          首页
+        </navigator>
+      </view>
+      <view class='tab active'>
+        <navigator url="../infos/infos" open-type="navigate" class="uploader-text">
+        <icon class='iconfont icon-duihuaxinxi'></icon>
+        消息
+      </navigator>
+      </view>
+      <view class='tab'>
+        <navigator url="../edit/edit" open-type="navigate" class="uploader-text">
+          <icon class='iconfont icon-shezhi'></icon>
+          资料
+        </navigator>
+      </view>
+    </view>
